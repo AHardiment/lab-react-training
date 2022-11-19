@@ -36,3 +36,123 @@
     transform: rotate(360deg);
   }
 }
+
+.id-card {
+  display: flex;
+  border: 1px solid black;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+.id-card h3 {
+  font-size: 1rem;
+  text-align: left;
+  margin: 0 0 0.1rem 1rem;
+}
+
+.greeting {
+  display: flex;
+  gap: 1rem;
+  border: 1px solid black;
+  margin: 1rem;
+  padding-left: 1rem;
+}
+
+.random-number {
+  display: flex;
+  gap: 1rem;
+  border: 1px solid black;
+  margin: 1rem;
+  padding-left: 1rem;
+}
+
+.box-colour {
+  gap: 1rem;
+  border: 1px solid black;
+  margin: 1rem;
+  padding-left: 1rem;
+}
+
+.box-colour h3 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: lighter;
+  text-align: center;
+  padding: 1rem;
+}
+
+.credit-card {
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  justify-content: center;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+.credit-cards .type {
+  display: inline-flex;
+  float: right;
+  margin-left: auto;
+}
+
+.credit-card .details {
+  text-align: left;
+}
+
+.credit-card .detail:first-child(h4) {
+  margin-bottom: 5rem;
+}
+
+.credit-card .credit-card .detail h4 {
+  margin-bottom: 1rem;
+}
+
+.credit-cards {
+  display: inline-flex;
+  gap: 1rem;
+}
+
+.rating h1 {
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.driver-card {
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  align-items: center;
+}
+
+.driver-card img {
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid transparent;
+  border-radius: 10rem;
+}
+
+.driver-card h1 {
+  text-align: left;
+  margin-left: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.driver-card h4 {
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-bottom: 0;
+}
+
+.counter-button {
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
