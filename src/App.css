@@ -156,3 +156,9 @@
   cursor: pointer;
   outline: inherit;
 }
+
+.click-image img {
+  display: flex;
+  margin: 1rem;
+  width: 10rem;
+}

@@ -1,5 +1,6 @@
 import './App.css';
 import BoxColor from './components/BoxColor';
+import ClickablePicture from './components/ClickablePicture';
 import CreditCard from './components/CreditCard';
 import DriverCard from './components/DriverCard';
 import Greetings from './components/Greetings';
@@ -49,6 +50,9 @@ const creditCard = [
     color: 'white',
   },
 ];
+
+const img = 'https://randomuser.me/api/portraits/men/44.jpg';
+const imgClicked = 'https://randomuser.me/api/portraits/men/45.jpg';
 
 function App() {
   return (
@@ -112,6 +116,7 @@ function App() {
         }}
       />
       <LikeButton />
+      <ClickablePicture img={img} imgClicked={imgClicked} />
     </div>
   );
 }
